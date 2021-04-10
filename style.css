@@ -1,0 +1,120 @@
+.preencher {
+    background-color: black;
+    position: fixed;
+    width: 19%;
+    right: 0px;
+    top: 0px;
+    text-align: right;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    z-index: 0;
+}
+
+header ul li {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+}
+
+header li {
+    width: calc(20% - 40px);
+    display: inline;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+}
+
+.img_princ {
+    display: block;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+main article {
+    display: inline-block;
+    width: calc(33% - 16px);
+    margin: 8px;
+}
+
+main article img {
+    width: 100%;
+}
+
+aside .titulo {
+    text-align: left;
+}
+
+main h1 {
+    font-size: 70px;
+}
+
+main div img {
+    width: 50%;
+}
+
+main div p {
+    width: 50%;
+}
+
+main article {
+    vertical-align: top;
+}
+
+div.contato img{
+    width: 20px;
+}
+
+div.contato p{
+    display: block;
+    text-align: top;
+}
+
+.sobre_mim p {
+    width: 50%;
+}
+
+main p {
+    text-align: justify;
+}
+
+.home {
+    width: 19%;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+}
+
+.patrocinio {
+    width: 19%;
+    left: 100px;
+    top: 0px;
+    text-align: left;
+}
+
+.sobre {
+    width: 19%;
+    left: 350px;
+    top: 0px;
+    text-align: left;
+}
+
+.contato {
+    width: 19%;
+    left: 500px;
+    top: 0px;
+    text-align: left;
+}
+
+.pesquisa_text {
+    width: 19%;
+    left: 750px;
+    top: 0px;
+    text-align: right;
+}
+
+.pesquisa_caixa {
+    width: 19%;
+    left: 1025px;
+    top: 0px;
+    z-index: 1;
+}
