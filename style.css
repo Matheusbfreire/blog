@@ -1,14 +1,25 @@
-.preencher {
-    background-color: black;
-    position: fixed;
-    width: 19%;
-    right: 0px;
-    top: 0px;
-    text-align: right;
-    font-size: x-large;
-    text-align: center;
+nav {
     padding: 10px;
-    z-index: 0;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+    font-size: 21px;
+}
+
+nav a {
+    display: inline-block;
+    width: 14%;
+}
+
+nav p {
+    display: inline-block;
+}
+
+.pesquisa {
+    color: white;
 }
 
 header ul li {
@@ -75,46 +86,4 @@ div.contato p{
 
 main p {
     text-align: justify;
-}
-
-.home {
-    width: 19%;
-    left: 0px;
-    top: 0px;
-    text-align: left;
-}
-
-.patrocinio {
-    width: 19%;
-    left: 100px;
-    top: 0px;
-    text-align: left;
-}
-
-.sobre {
-    width: 19%;
-    left: 350px;
-    top: 0px;
-    text-align: left;
-}
-
-.contato {
-    width: 19%;
-    left: 500px;
-    top: 0px;
-    text-align: left;
-}
-
-.pesquisa_text {
-    width: 19%;
-    left: 750px;
-    top: 0px;
-    text-align: right;
-}
-
-.pesquisa_caixa {
-    width: 19%;
-    left: 1025px;
-    top: 0px;
-    z-index: 1;
 }
